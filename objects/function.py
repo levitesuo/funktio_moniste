@@ -10,11 +10,17 @@ class Function:
     #Accepted variables are x, y and z
     accepted_variables = ["x", "y", "z"]
     def __init__(self, sfunction):
+        self.left_side_terms = []
+        self.right_side_terms = []
+        terms = sfunction.split(" ")
+        for term in terms:
+            self.left_side_terms.append(Term(term))
+        '''
         left_side_terms = []
         right_side_terms = []
         list_of_terms = sfunction.split(" ")
         on_left_side = True
-        '''
+        
         for term in list_of_terms:
             print("Term: ", term)
             factor = ""
@@ -47,8 +53,8 @@ class Function:
             self.right_side_terms = right_side_terms
             '''
     def reorder(self):
-        self.left_side_terms.sort(key=lambda term: term.get_power())
-        self.right_side_terms.sort(key=lambda term: term.get_power())
+        self.left_side_terms.sort(key=lambda term: term.get_power(), reverse=True)
+        self.right_side_terms.sort(key=lambda term: term.get_power(), reverse=True)
         
     def get_latex(self):
         self.reorder()
@@ -68,5 +74,5 @@ class Function:
 if __name__ == "__main__":
     # f = Function([Term(str(r(1,10)), "x^"+str(r(1,10))), Term(str(r(1,10)), "x")], 
     #              [Term(str(r(1,22)))])
-    f = Function("q qx = y")
+    f = Function("4y 5x 11")
     print(f.get_latex())
