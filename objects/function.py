@@ -14,6 +14,7 @@ class Function:
         right_side_terms = []
         list_of_terms = sfunction.split(" ")
         on_left_side = True
+        '''
         for term in list_of_terms:
             print("Term: ", term)
             factor = ""
@@ -37,14 +38,14 @@ class Function:
                     if at_variable: variable += char_out
                     else:           factor += char_out
                     print("At variable ", at_variable)
-            else: on_left_side = False
+                else: on_left_side = False
             final_term = Term(factor, variable)
             print("FTerm: ", final_term.get_latex())
             if on_left_side: left_side_terms.append(final_term)
             else: right_side_terms.append(final_term)                
             self.left_side_terms = left_side_terms
             self.right_side_terms = right_side_terms
-        
+            '''
     def reorder(self):
         self.left_side_terms.sort(key=lambda term: term.get_power())
         self.right_side_terms.sort(key=lambda term: term.get_power())
@@ -67,5 +68,5 @@ class Function:
 if __name__ == "__main__":
     # f = Function([Term(str(r(1,10)), "x^"+str(r(1,10))), Term(str(r(1,10)), "x")], 
     #              [Term(str(r(1,22)))])
-    f = Function("q +qx = y")
+    f = Function("q qx = y")
     print(f.get_latex())
