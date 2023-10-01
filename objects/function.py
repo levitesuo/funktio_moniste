@@ -11,7 +11,7 @@ class Function:
     accepted_variables = ["x", "y", "z"]
     def __init__(self, sfunction):
         self.left_side_terms = []
-        self.right_side_terms = []
+        self.right_side_terms = [Term("0")]
         terms = sfunction.split(" ")
         for term in terms:
             self.left_side_terms.append(Term(term))
@@ -52,6 +52,7 @@ class Function:
             self.left_side_terms = left_side_terms
             self.right_side_terms = right_side_terms
             '''
+ 
     def reorder(self):
         self.left_side_terms.sort(key=lambda term: term.get_power(), reverse=True)
         self.right_side_terms.sort(key=lambda term: term.get_power(), reverse=True)
@@ -71,8 +72,29 @@ class Function:
         output += "\)"
         return output
             
+    def manipulate_add(self, termstr):
+        manipulator = Term(termstr)
+        change = False
+        for i in range(len(self.right_side_terms)):
+            if self.right_side_terms[i].variable == manipulator.variable:
+                self.right_side_terms[i] + manipulator
+                change = True
+        if not change: self.right_side_terms.append(manipulator)
+        change = False
+        for i in range(len(self.left_side_terms)):
+            if self.left_side_terms[i].variable == manipulator.variable:
+                self.left_side_terms[i] + manipulator
+                change = True
+        if not change: self.left_side_terms.append(manipulator)
+    
+    def manipulate_mul(self, termstr):
+                   
 if __name__ == "__main__":
-    # f = Function([Term(str(r(1,10)), "x^"+str(r(1,10))), Term(str(r(1,10)), "x")], 
-    #              [Term(str(r(1,22)))])
     f = Function("4y 5x 11")
+    print(f.get_latex())
+    f.manipulate_add("-4")
+    print(f.get_latex())
+    f.manipulate_add("3")
+    print(f.get_latex())
+    f.manipulate_add("3x")
     print(f.get_latex())

@@ -1,13 +1,20 @@
 class Term:
     def __init__(self, termstr):
-        print("T: ", termstr)
         self.factor = ""
         self.variable = ""
         for char in termstr:
             if char == "x" or char == "y" or char == "z": self.variable = char
             else: self.factor += char
 
-    
+    def __add__(self, other):
+        if type(other) != type(self):
+            print("Both of the operators must be terms")
+            return None
+        if other.variable != self.variable:
+            print("The variables must be the same on both of the terms")
+            return None
+        self.factor = str(int(self.factor) + int(other.factor))
+        
     def get_power(self):
         if len(self.variable) == 0: return 0
         best = 1
@@ -23,7 +30,9 @@ class Term:
 
 if __name__ == "__main__":
     from random import randint as r
-    a = Term("7y")
+    a = Term("-7x")
     print(a.get_power())
+    print(a.get_latex())
+    a + Term("3x")
     print(a.get_latex())
     
