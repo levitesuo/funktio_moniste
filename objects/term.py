@@ -13,7 +13,7 @@ class Term:
         if other.variable != self.variable:
             print("The variables must be the same on both of the terms")
             return None
-        self.factor = str(int(self.factor) + int(other.factor))
+        return Term(str(int(self.factor) + int(other.factor))+self.variable)
         
     def get_power(self):
         if len(self.variable) == 0: return 0
