@@ -10,11 +10,8 @@ class Function:
     #Accepted variables are x, y and z
     accepted_variables = ["x", "y", "z"]
     def __init__(self, sfunction):
-        self.left_side_terms = []
-        self.right_side_terms = [Term("0")]
-        terms = sfunction.split(" ")
-        for term in terms:
-            self.left_side_terms.append(Term(term))
+        self.terms = [Term(t) for t in sfunction.split(" ")]
+
         '''
         left_side_terms = []
         right_side_terms = []
@@ -54,40 +51,34 @@ class Function:
             '''
  
     def reorder(self):
-        self.left_side_terms.sort(key=lambda term: term.get_power(), reverse=True)
-        self.right_side_terms.sort(key=lambda term: term.get_power(), reverse=True)
+        self.terms.sort(key=lambda term: term.get_power(), reverse=True)
+
+    def remove_empty(self):
+        for i in range(len(self.terms) - 1, 0, -1):
+            term = self.terms[i]
+            if int(term.factor) == 0:
+                self.terms.pop(i)
         
     def get_latex(self):
         self.reorder()
-        output = "\("
-        for i in range(len(self.left_side_terms)):
-            term = self.left_side_terms[i]
+        self.remove_empty()
+        output = ""
+        for i in range(len(self.terms)):
+            term = self.terms[i]
             if i == 0: output += term.get_latex().replace("+", "")
             else: output += term.get_latex()
-        output += "="
-        for i in range(len(self.right_side_terms)):
-            term = self.right_side_terms[i]
-            if i == 0: output += term.get_latex().replace("+", "")
-            else: output += term.get_latex()
-        output += "\)"
         return output
             
     def manipulate_add(self, termstr):
         manipulator = Term(termstr)
         change = False
-        for i in range(len(self.right_side_terms)):
-            if self.right_side_terms[i].variable == manipulator.variable:
-                self.right_side_terms[i] + manipulator
+        for i in range(len(self.terms)):
+            if self.terms[i].variable == manipulator.variable:
+                self.terms[i] + manipulator
                 change = True
-        if not change: self.right_side_terms.append(manipulator)
-        change = False
-        for i in range(len(self.left_side_terms)):
-            if self.left_side_terms[i].variable == manipulator.variable:
-                self.left_side_terms[i] + manipulator
-                change = True
-        if not change: self.left_side_terms.append(manipulator)
+        if not change: self.terms.append(manipulator)
     
-    def manipulate_mul(self, termstr):
+    #def manipulate_mul(self, termstr):
                    
 if __name__ == "__main__":
     f = Function("4y 5x 11")
@@ -97,4 +88,6 @@ if __name__ == "__main__":
     f.manipulate_add("3")
     print(f.get_latex())
     f.manipulate_add("3x")
+    print(f.get_latex())
+    f.manipulate_add("-10")
     print(f.get_latex())
