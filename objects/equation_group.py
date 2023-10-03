@@ -7,12 +7,12 @@ class Equation_group:
             left_side = ""
             right_side = ""
             onRight = False
-            for term in equation:
+            for term in equation.split(" "):
                 if "=" in term: onRight = True
                 else:
-                    if not onRight: left_side  += term
-                    else:           right_side += term
-            if len(right_side) != 0: self.equations.append(Equation(right_side, left_side))
+                    if not onRight: left_side  += term + " "
+                    else:           right_side += term + " "
+            if len(right_side) != 0: self.equations.append(Equation(left_side, right_side))
             else:                    self.equations.append(Equation(left_side))
 
     def get_latex(self):
@@ -25,7 +25,11 @@ class Equation_group:
         self.equations[funcNum].manipulate_add(termstr)
 
 if __name__ == "__main__":
+    '''
     eg = Equation_group(["3x 4y 12", "1x 1y 1"])
     print(eg.get_latex())
     eg.manipulate_add(0, "-3x")
-    print(eg.get_latex())
+    print(eg.get_latex())'''
+
+    aq = Equation_group(["-8x 27 = 1y"])
+    print(aq.get_latex())

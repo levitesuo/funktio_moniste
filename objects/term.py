@@ -23,10 +23,21 @@ class Term:
         return best
     
     def get_latex(self):
-        if len(self.factor) != 0 and int(self.factor) > 0 and not "+" in self.factor and not "-" in self.factor: 
-            return "+" + self.factor + self.variable
+        if int(self.factor) == 1 and len(self.variable) != 0:
+            if len(self.factor) != 0 and int(self.factor) > 0 and not "+" in self.factor and not "-" in self.factor: 
+                return "+" + self.variable
+            else:
+                return "+" + self.variable
+        elif int(self.factor) == -1 and len(self.variable) != 0:
+            if len(self.factor) != 0 and int(self.factor) > 0 and not "+" in self.factor and not "-" in self.factor: 
+                return "+" + self.variable
+            else:
+                return "-"+self.variable
         else:
-            return self.factor + self.variable
+            if len(self.factor) != 0 and int(self.factor) > 0 and not "+" in self.factor and not "-" in self.factor: 
+                return "+" + self.factor + self.variable
+            else:
+                return self.factor + self.variable
 
 if __name__ == "__main__":
     a = Term("-7x")
@@ -34,4 +45,7 @@ if __name__ == "__main__":
     print(a.get_latex())
     a + Term("3x")
     print(a.get_latex())
+    b = Term("1x")
+    print(b.get_latex())
+    print(b.factor)
     

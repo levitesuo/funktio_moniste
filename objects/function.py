@@ -3,6 +3,9 @@ from term import Term
 class Function:
     def __init__(self, sfunction):
         self.terms = [Term(t) for t in sfunction.split(" ")]
+        for term in self.terms:
+            if len(term.factor) == 0 and len(term.variable) == 0:
+                self.terms.remove(term)
  
     def reorder(self):
         self.terms.sort(key=lambda term: term.get_power(), reverse=True)
