@@ -29,7 +29,6 @@ class Term:
             return self.factor + self.variable
 
 if __name__ == "__main__":
-    from random import randint as r
     a = Term("-7x")
     print(a.get_power())
     print(a.get_latex())

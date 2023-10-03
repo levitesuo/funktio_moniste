@@ -8,10 +8,11 @@ class Function:
         self.terms.sort(key=lambda term: term.get_power(), reverse=True)
 
     def remove_empty(self):
-        for i in range(len(self.terms) - 1, 0, -1):
+        for i in range(len(self.terms) - 1, -1, -1):
             term = self.terms[i]
             if int(term.factor) == 0:
                 self.terms.pop(i)
+        if len(self.terms) == 0: self.terms.append(Term("0"))
         
     def get_latex(self):
         self.reorder()
