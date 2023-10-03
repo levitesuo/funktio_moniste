@@ -8,7 +8,7 @@ class Function:
                 self.terms.remove(term)
  
     def reorder(self):
-        self.terms.sort(key=lambda term: term.get_power(), reverse=True)
+        self.terms.sort(key=lambda term: (term.get_power(), term.variable), reverse=True)
 
     def remove_empty(self):
         for i in range(len(self.terms) - 1, -1, -1):

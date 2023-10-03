@@ -24,9 +24,24 @@ def get_equation_pair_xy_method_scrambeld():
     
     return eq
     
+def get_smart_scramble_equation_for_sub():
+    eq = get_equation_pair_xy_method()
+    eq.manipulate_add(0, "-1y")
+    eq.manipulate_add(1, "-1x")
+    manipulators = []
+    for i in range(2):
+         for term in eq.equations[i].left.terms:
+              if len(term.variable) == 0:
+                   manipulators.append(term.factor)
+    print(manipulators)
+    for i in range(2):
+        eq.manipulate_add(i, str(int(manipulators[i])*-1))
+    return eq
 
 if __name__ == "__main__":
     eq = get_equation_pair_xy_method()
     aq = get_equation_pair_xy_method_scrambeld()
+    wq = get_smart_scramble_equation_for_sub()
     print(str(eq.get_latex()).replace("'", "").replace("[", "").replace("]", ""))
     print(str(aq.get_latex()).replace("'", "").replace("[", "").replace("]", ""))
+    print(str(wq.get_latex()).replace("'", "").replace("[", "").replace("]", ""))
