@@ -40,15 +40,14 @@ def get_smart_scramble_equation_for_sub():
         eq.manipulate_add(i, str(int(manipulators[i])*-1))
     return eq
 
-def get_good_sub_equation():
+def get_equation(range, level):
     #a1x + b1y = c1
     #a2x + b2y = c2
     a1 = 1
     b1 = 1
     a2 = 1
     b2 = 1
-    while b1 != 0 and b2 != 0 and a1/b1 == a2 / b2:
-        range = 9
+    while True:
         s1 = r(range * -1, range)
         s2 = r(range * -1, range)
         while s1 == s2:
@@ -67,8 +66,41 @@ def get_good_sub_equation():
         
         a2 = solution[1]
         b2 = x_axel2 - solution[0]
-    return [np.array([[a1, b1], [a2, b2]]), np.array([c1, c2])]
-    #return Equation_group([f"{a1}x {b1}y = {c1}", f"{a2}x {b2}y = {c2}"])
+        
+        if randint(0,1) == 1:
+            a1 += a2
+            b1 += b2
+            c1 += c2
+        elif randint(0,1) == 1:
+            a2 += a1
+            b2 += b1
+            c2 += c1
+        
+        if a1 != 0 and a2 != 0 and b1 != 0 and b2 != 0:
+            if level == -1 and (a1 == 1 or b1 == 1 or a2 == 1 or b2 == 1):
+                ran = randint(1, 4)
+                order = randint(0, 1)
+                if order == 1:
+                    eq = Equation_group([f"{a1}x {b1}y = {c1}", f"{a2}x {b2}y = {c2}"])
+                else:
+                    eq = Equation_group([f"{a2}x {b2}y = {c2}", f"{a1}x {b1}y = {c1}"])
+                if ran == 1: eq.manipulate_add(abs(order-1), f"{a1*-1}x")
+                elif ran == 2: eq.manipulate_add(abs(order-1), f"{b1*-1}y")
+                elif ran == 3: eq.manipulate_add(abs(order-1), f"{a2*-1}x")
+                elif ran == 4: eq.manipulate_add(abs(order-1), f"{b2*-1}y")
+                return [eq, solution]
+            elif level == 0 and (a1 == 1 or b1 == 1 or a2 == 1 or b2 == 1):
+                if randint(0,1) == 1: return [Equation_group([f"{a1}x {b1}y = {c1}", f"{a2}x {b2}y = {c2}"]), solution]
+                else: return [Equation_group([f"{a2}x {b2}y = {c2}", f"{a1}x {b1}y = {c1}"]), solution]
+            elif level == 1 and (b1 % b2 == 0 or b2 % b1 == 0 or a1 % a2 == 0 or a2 % a1 == 0) and not(a1 == 1 or b1 == 1 or a2 == 1 or b2 == 1):
+                if randint(0,1) == 1: return [Equation_group([f"{a1}x {b1}y = {c1}", f"{a2}x {b2}y = {c2}"]), solution]
+                else: return [Equation_group([f"{a2}x {b2}y = {c2}", f"{a1}x {b1}y = {c1}"]), solution]
+            elif level == 2 and not(a1 == 1 or b1 == 1 or a2 == 1 or b2 == 1) and not(b1 % b2 == 0 or b2 % b1 == 0 or a1 % a2 == 0 or a2 % a1 == 0):
+                if randint(0,1) == 1: return [Equation_group([f"{a1}x {b1}y = {c1}", f"{a2}x {b2}y = {c2}"]), solution]
+                else: return [Equation_group([f"{a2}x {b2}y = {c2}", f"{a1}x {b1}y = {c1}"]), solution]
+            #return [np.array([[a1, b1], [a2, b2]]), np.array([c1, c2])]
+            
+    
     
     
 

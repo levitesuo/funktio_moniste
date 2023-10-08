@@ -1,7 +1,7 @@
 # Python program creating a
 import sys
-sys.path.append('/path/to/requests')
-import requests# small document using pylatex
+type(sys.path)
+sys.path.append(r"c:\users\leevi suotula\anaconda3\lib\site-packages")
 
 import numpy as np
 

@@ -1,0 +1,336 @@
+<style type="text/css">
+	ol { list-style-type: upper-alpha; }
+</style>
+
+### 9 lk funktiopari moniste
+id = 1102
+#### 1. Raktaise yhtälöparit
+1.
+$$
+\left\{
+	\begin{aligned}
+		4y+x=5\\-3y=x-3\\
+	\end{aligned}
+\right.
+$$
+2.
+$$
+\left\{
+	\begin{aligned}
+		-3y-6x=-x+12\\-y+x=-4\\
+	\end{aligned}
+\right.
+$$
+3.
+$$
+\left\{
+	\begin{aligned}
+		y-3x=-20\\4y+2x=-y-15\\
+	\end{aligned}
+\right.
+$$
+4.
+$$
+\left\{
+	\begin{aligned}
+		2y=-3x+2\\-4y+x=10\\
+	\end{aligned}
+\right.
+$$
+#### 2. Raktaise yhtälöparit
+1.
+$$
+\left\{
+	\begin{aligned}
+		7y+8x=7x-43\\y-7x=-49\\
+	\end{aligned}
+\right.
+$$
+2.
+$$
+\left\{
+	\begin{aligned}
+		-8x=2y+14\\6y+x=4\\
+	\end{aligned}
+\right.
+$$
+3.
+$$
+\left\{
+	\begin{aligned}
+		3x=4y-28\\y+7x=-24\\
+	\end{aligned}
+\right.
+$$
+4.
+$$
+\left\{
+	\begin{aligned}
+		-y-6x=-12\\4y+x=y-15\\
+	\end{aligned}
+\right.
+$$
+#### 3. Raktaise yhtälöparit
+1.
+$$
+\left\{
+	\begin{aligned}
+		-y+5x=5\\y+5x=15\\
+	\end{aligned}
+\right.
+$$
+2.
+$$
+\left\{
+	\begin{aligned}
+		-3y-x=4\\2y+x=-2\\
+	\end{aligned}
+\right.
+$$
+3.
+$$
+\left\{
+	\begin{aligned}
+		-2y-4x=-4\\y+x=-1\\
+	\end{aligned}
+\right.
+$$
+4.
+$$
+\left\{
+	\begin{aligned}
+		-y-4x=8\\-y+x=3\\
+	\end{aligned}
+\right.
+$$
+#### 4. Raktaise yhtälöparit
+1.
+$$
+\left\{
+	\begin{aligned}
+		y+4x=9\\-2y-3x=-3\\
+	\end{aligned}
+\right.
+$$
+2.
+$$
+\left\{
+	\begin{aligned}
+		-6y+x=31\\7y+5x=7\\
+	\end{aligned}
+\right.
+$$
+3.
+$$
+\left\{
+	\begin{aligned}
+		5y-6x=5\\y+x=12\\
+	\end{aligned}
+\right.
+$$
+4.
+$$
+\left\{
+	\begin{aligned}
+		4y+x=-1\\-y-x=4\\
+	\end{aligned}
+\right.
+$$
+#### 5. Raktaise yhtälöparit
+1.
+$$
+\left\{
+	\begin{aligned}
+		-2y+5x=-24\\2y+2x=-4\\
+	\end{aligned}
+\right.
+$$
+2.
+$$
+\left\{
+	\begin{aligned}
+		5y+5x=10\\2y-x=-5\\
+	\end{aligned}
+\right.
+$$
+3.
+$$
+\left\{
+	\begin{aligned}
+		-y+5x=15\\3y-x=11\\
+	\end{aligned}
+\right.
+$$
+4.
+$$
+\left\{
+	\begin{aligned}
+		-2y-3x=-2\\-y+4x=-12\\
+	\end{aligned}
+\right.
+$$
+#### 6. Raktaise yhtälöparit
+1.
+$$
+\left\{
+	\begin{aligned}
+		-8y-6x=30\\3y+3x=-9\\
+	\end{aligned}
+\right.
+$$
+2.
+$$
+\left\{
+	\begin{aligned}
+		8y+5x=25\\5y+5x=10\\
+	\end{aligned}
+\right.
+$$
+3.
+$$
+\left\{
+	\begin{aligned}
+		-y+5x=30\\6y-2x=16\\
+	\end{aligned}
+\right.
+$$
+4.
+$$
+\left\{
+	\begin{aligned}
+		-3y+4x=6\\4y-2x=-18\\
+	\end{aligned}
+\right.
+$$
+#### 7. Raktaise yhtälöparit
+1.
+$$
+\left\{
+	\begin{aligned}
+		3y-9x=-102\\-6y-7x=-21\\
+	\end{aligned}
+\right.
+$$
+2.
+$$
+\left\{
+	\begin{aligned}
+		-y+8x=-31\\2y+7x=-7\\
+	\end{aligned}
+\right.
+$$
+3.
+$$
+\left\{
+	\begin{aligned}
+		-3y-2x=-10\\-7y-10x=14\\
+	\end{aligned}
+\right.
+$$
+4.
+$$
+\left\{
+	\begin{aligned}
+		3y+4x=0\\-3y-8x=-24\\
+	\end{aligned}
+\right.
+$$
+#### 8. Raktaise yhtälöparit
+1.
+$$
+\left\{
+	\begin{aligned}
+		2y+6x=4\\-7y-4x=20\\
+	\end{aligned}
+\right.
+$$
+2.
+$$
+\left\{
+	\begin{aligned}
+		3y+3x=3\\2y-2x=-10\\
+	\end{aligned}
+\right.
+$$
+3.
+$$
+\left\{
+	\begin{aligned}
+		-3y-4x=16\\-4y+3x=13\\
+	\end{aligned}
+\right.
+$$
+4.
+$$
+\left\{
+	\begin{aligned}
+		-2y+3x=-15\\-3y+2x=-15\\
+	\end{aligned}
+\right.
+$$
+#### 9. Raktaise yhtälöparit
+1.
+$$
+\left\{
+	\begin{aligned}
+		4y-6x=10\\3y-13x=-18\\
+	\end{aligned}
+\right.
+$$
+2.
+$$
+\left\{
+	\begin{aligned}
+		6y+5x=12\\7y+2x=-9\\
+	\end{aligned}
+\right.
+$$
+3.
+$$
+\left\{
+	\begin{aligned}
+		-5y-4x=-31\\-9y+3x=-15\\
+	\end{aligned}
+\right.
+$$
+4.
+$$
+\left\{
+	\begin{aligned}
+		-10y-7x=42\\-6y+3x=54\\
+	\end{aligned}
+\right.
+$$
+#### 10. Raktaise yhtälöparit
+1.
+$$
+\left\{
+	\begin{aligned}
+		-9y+4x=-69\\-12y+9x=-81\\
+	\end{aligned}
+\right.
+$$
+2.
+$$
+\left\{
+	\begin{aligned}
+		-15y-7x=49\\-7y-5x=9\\
+	\end{aligned}
+\right.
+$$
+3.
+$$
+\left\{
+	\begin{aligned}
+		-5y-13x=35\\-3y+6x=-48\\
+	\end{aligned}
+\right.
+$$
+4.
+$$
+\left\{
+	\begin{aligned}
+		8y-7x=31\\17y-4x=-32\\
+	\end{aligned}
+\right.
+$$
