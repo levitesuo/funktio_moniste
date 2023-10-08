@@ -2,14 +2,16 @@
 	ol { list-style-type: upper-alpha; }
 </style>
 
-### 9 lk funktiopari moniste
-id = 6048
-#### 1. Raktaise yhtälöparit
+### Ratkaisut
+id = 9499 
+
+Tehtävä 1 
+
 1.
 $$
 \left\{
 	\begin{aligned}
-		4y+4x=-y+26\\y+2x=10\\
+		x=4\\y=-5
 	\end{aligned}
 \right.
 $$
@@ -17,7 +19,7 @@ $$
 $$
 \left\{
 	\begin{aligned}
-		2y=-x-4\\4y-x=-2\\
+		x=-4\\y=4
 	\end{aligned}
 \right.
 $$
@@ -25,7 +27,7 @@ $$
 $$
 \left\{
 	\begin{aligned}
-		6x=-y+2\\-3y-4x=8\\
+		x=1\\y=-1
 	\end{aligned}
 \right.
 $$
@@ -33,16 +35,17 @@ $$
 $$
 \left\{
 	\begin{aligned}
-		4y+4x=-4\\-5y+x=-4y-9\\
+		x=4\\y=2
 	\end{aligned}
 \right.
 $$
-#### 2. Raktaise yhtälöparit
+Tehtävä 2 
+
 1.
 $$
 \left\{
 	\begin{aligned}
-		y=-8x+7\\3y-x=-4\\
+		x=-2\\y=1
 	\end{aligned}
 \right.
 $$
@@ -50,7 +53,7 @@ $$
 $$
 \left\{
 	\begin{aligned}
-		-6y+x=1\\y=7x-48\\
+		x=-3\\y=-5
 	\end{aligned}
 \right.
 $$
@@ -58,7 +61,7 @@ $$
 $$
 \left\{
 	\begin{aligned}
-		-6y+7x=37\\y=-12x+7\\
+		x=-5\\y=-4
 	\end{aligned}
 \right.
 $$
@@ -66,16 +69,17 @@ $$
 $$
 \left\{
 	\begin{aligned}
-		y-5x=-15\\y+3x=-y-4\\
+		x=-5\\y=4
 	\end{aligned}
 \right.
 $$
-#### 3. Raktaise yhtälöparit
+Tehtävä 3 
+
 1.
 $$
 \left\{
 	\begin{aligned}
-		-2y-3x=-9\\3y+x=-4\\
+		x=5\\y=-2
 	\end{aligned}
 \right.
 $$
@@ -83,7 +87,7 @@ $$
 $$
 \left\{
 	\begin{aligned}
-		5y+3x=3\\y+5x=-17\\
+		x=-1\\y=-4
 	\end{aligned}
 \right.
 $$
@@ -91,7 +95,7 @@ $$
 $$
 \left\{
 	\begin{aligned}
-		y+5x=15\\-y+5x=5\\
+		x=-4\\y=4
 	\end{aligned}
 \right.
 $$
@@ -99,16 +103,17 @@ $$
 $$
 \left\{
 	\begin{aligned}
-		y+x=-6\\-4y+3x=-4\\
+		x=-3\\y=3
 	\end{aligned}
 \right.
 $$
-#### 4. Raktaise yhtälöparit
+Tehtävä 4 
+
 1.
 $$
 \left\{
 	\begin{aligned}
-		7y-3x=-3\\y-2x=9\\
+		x=1\\y=5
 	\end{aligned}
 \right.
 $$
@@ -116,7 +121,7 @@ $$
 $$
 \left\{
 	\begin{aligned}
-		-3y+7x=-3\\4y+x=-27\\
+		x=-4\\y=5
 	\end{aligned}
 \right.
 $$
@@ -124,7 +129,7 @@ $$
 $$
 \left\{
 	\begin{aligned}
-		5y+x=4\\4y-x=5\\
+		x=-5\\y=1
 	\end{aligned}
 \right.
 $$
@@ -132,16 +137,17 @@ $$
 $$
 \left\{
 	\begin{aligned}
-		2y+2x=2\\7y+x=-5\\
+		x=3\\y=-1
 	\end{aligned}
 \right.
 $$
-#### 5. Raktaise yhtälöparit
+Tehtävä 5 
+
 1.
 $$
 \left\{
 	\begin{aligned}
-		-4y-5x=10\\-2y-2x=6\\
+		x=-1\\y=2
 	\end{aligned}
 \right.
 $$
@@ -149,7 +155,7 @@ $$
 $$
 \left\{
 	\begin{aligned}
-		3y-x=-1\\-2y+5x=-8\\
+		x=1\\y=4
 	\end{aligned}
 \right.
 $$
@@ -157,7 +163,7 @@ $$
 $$
 \left\{
 	\begin{aligned}
-		7y+5x=10\\-5y-x=-20\\
+		x=-4\\y=-3
 	\end{aligned}
 \right.
 $$
@@ -165,16 +171,17 @@ $$
 $$
 \left\{
 	\begin{aligned}
-		5y-2x=-22\\4y-4x=-20\\
+		x=2\\y=-4
 	\end{aligned}
 \right.
 $$
-#### 6. Raktaise yhtälöparit
+Tehtävä 6 
+
 1.
 $$
 \left\{
 	\begin{aligned}
-		7y-x=-49\\-7y-7x=-7\\
+		x=-5\\y=-3
 	\end{aligned}
 \right.
 $$
@@ -182,7 +189,7 @@ $$
 $$
 \left\{
 	\begin{aligned}
-		5y-x=30\\7y+6x=79\\
+		x=1\\y=6
 	\end{aligned}
 \right.
 $$
@@ -190,7 +197,7 @@ $$
 $$
 \left\{
 	\begin{aligned}
-		-3y+7x=-42\\-6y+3x=-51\\
+		x=-3\\y=2
 	\end{aligned}
 \right.
 $$
@@ -198,16 +205,17 @@ $$
 $$
 \left\{
 	\begin{aligned}
-		-3y+7x=-51\\-6y+4x=-42\\
+		x=-2\\y=6
 	\end{aligned}
 \right.
 $$
-#### 7. Raktaise yhtälöparit
+Tehtävä 7 
+
 1.
 $$
 \left\{
 	\begin{aligned}
-		-4y-x=-39\\-7y+9x=-36\\
+		x=-3\\y=2
 	\end{aligned}
 \right.
 $$
@@ -215,7 +223,7 @@ $$
 $$
 \left\{
 	\begin{aligned}
-		-8y+5x=-10\\-2y+5x=20\\
+		x=4\\y=-5
 	\end{aligned}
 \right.
 $$
@@ -223,7 +231,7 @@ $$
 $$
 \left\{
 	\begin{aligned}
-		7y+9x=21\\-9y+3x=75\\
+		x=-1\\y=-5
 	\end{aligned}
 \right.
 $$
@@ -231,16 +239,17 @@ $$
 $$
 \left\{
 	\begin{aligned}
-		-14y+6x=-42\\7y+2x=56\\
+		x=3\\y=-6
 	\end{aligned}
 \right.
 $$
-#### 8. Raktaise yhtälöparit
+Tehtävä 8 
+
 1.
 $$
 \left\{
 	\begin{aligned}
-		4y+3x=-19\\-5y+4x=-15\\
+		x=-5\\y=5
 	\end{aligned}
 \right.
 $$
@@ -248,7 +257,7 @@ $$
 $$
 \left\{
 	\begin{aligned}
-		-4y+6x=-16\\3y+4x=-22\\
+		x=3\\y=5
 	\end{aligned}
 \right.
 $$
@@ -256,7 +265,7 @@ $$
 $$
 \left\{
 	\begin{aligned}
-		3y+4x=-4\\-4y-5x=4\\
+		x=-5\\y=5
 	\end{aligned}
 \right.
 $$
@@ -264,16 +273,17 @@ $$
 $$
 \left\{
 	\begin{aligned}
-		-3y-5x=-10\\2y-2x=-20\\
+		x=1\\y=5
 	\end{aligned}
 \right.
 $$
-#### 9. Raktaise yhtälöparit
+Tehtävä 9 
+
 1.
 $$
 \left\{
 	\begin{aligned}
-		7y-2x=-41\\4y-5x=-35\\
+		x=7\\y=-7
 	\end{aligned}
 \right.
 $$
@@ -281,7 +291,7 @@ $$
 $$
 \left\{
 	\begin{aligned}
-		2y-4x=-14\\-7y-3x=15\\
+		x=-4\\y=-6
 	\end{aligned}
 \right.
 $$
@@ -289,7 +299,7 @@ $$
 $$
 \left\{
 	\begin{aligned}
-		-5y+7x=-42\\-6y-6x=-36\\
+		x=-5\\y=2
 	\end{aligned}
 \right.
 $$
@@ -297,16 +307,17 @@ $$
 $$
 \left\{
 	\begin{aligned}
-		-3y-6x=18\\-2y-4x=12\\
+		x=-7\\y=-5
 	\end{aligned}
 \right.
 $$
-#### 10. Raktaise yhtälöparit
+Tehtävä 10 
+
 1.
 $$
 \left\{
 	\begin{aligned}
-		-2y+7x=-2\\11y-6x=-54\\
+		x=6\\y=7
 	\end{aligned}
 \right.
 $$
@@ -314,7 +325,7 @@ $$
 $$
 \left\{
 	\begin{aligned}
-		-6y-3x=12\\8y-2x=20\\
+		x=-8\\y=7
 	\end{aligned}
 \right.
 $$
@@ -322,7 +333,7 @@ $$
 $$
 \left\{
 	\begin{aligned}
-		4y+13x=20\\-5y-8x=8\\
+		x=-3\\y=8
 	\end{aligned}
 \right.
 $$
@@ -330,7 +341,7 @@ $$
 $$
 \left\{
 	\begin{aligned}
-		-7y+4x=23\\-3y+9x=-12\\
+		x=5\\y=-5
 	\end{aligned}
 \right.
 $$

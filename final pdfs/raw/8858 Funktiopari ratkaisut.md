@@ -3,7 +3,7 @@
 </style>
 
 ### Ratkaisut
-id = 6048 
+id = 8858 
 
 Tehtävä 1 
 
@@ -11,7 +11,7 @@ Tehtävä 1
 $$
 \left\{
 	\begin{aligned}
-		x=4\\y=2
+		x=2\\y=-2
 	\end{aligned}
 \right.
 $$
@@ -19,7 +19,7 @@ $$
 $$
 \left\{
 	\begin{aligned}
-		x=-2\\y=-1
+		x=-3\\y=-1
 	\end{aligned}
 \right.
 $$
@@ -27,7 +27,7 @@ $$
 $$
 \left\{
 	\begin{aligned}
-		x=1\\y=-4
+		x=-4\\y=1
 	\end{aligned}
 \right.
 $$
@@ -35,11 +35,147 @@ $$
 $$
 \left\{
 	\begin{aligned}
-		x=-5\\y=4
+		x=-2\\y=4
 	\end{aligned}
 \right.
 $$
 Tehtävä 2 
+
+1.
+$$
+\left\{
+	\begin{aligned}
+		x=-3\\y=-2
+	\end{aligned}
+\right.
+$$
+2.
+$$
+\left\{
+	\begin{aligned}
+		x=-3\\y=1
+	\end{aligned}
+\right.
+$$
+3.
+$$
+\left\{
+	\begin{aligned}
+		x=6\\y=5
+	\end{aligned}
+\right.
+$$
+4.
+$$
+\left\{
+	\begin{aligned}
+		x=3\\y=1
+	\end{aligned}
+\right.
+$$
+Tehtävä 3 
+
+1.
+$$
+\left\{
+	\begin{aligned}
+		x=-3\\y=1
+	\end{aligned}
+\right.
+$$
+2.
+$$
+\left\{
+	\begin{aligned}
+		x=3\\y=-1
+	\end{aligned}
+\right.
+$$
+3.
+$$
+\left\{
+	\begin{aligned}
+		x=5\\y=1
+	\end{aligned}
+\right.
+$$
+4.
+$$
+\left\{
+	\begin{aligned}
+		x=-2\\y=2
+	\end{aligned}
+\right.
+$$
+Tehtävä 4 
+
+1.
+$$
+\left\{
+	\begin{aligned}
+		x=7\\y=-6
+	\end{aligned}
+\right.
+$$
+2.
+$$
+\left\{
+	\begin{aligned}
+		x=3\\y=-5
+	\end{aligned}
+\right.
+$$
+3.
+$$
+\left\{
+	\begin{aligned}
+		x=-5\\y=1
+	\end{aligned}
+\right.
+$$
+4.
+$$
+\left\{
+	\begin{aligned}
+		x=1\\y=7
+	\end{aligned}
+\right.
+$$
+Tehtävä 5 
+
+1.
+$$
+\left\{
+	\begin{aligned}
+		x=-2\\y=-3
+	\end{aligned}
+\right.
+$$
+2.
+$$
+\left\{
+	\begin{aligned}
+		x=1\\y=-1
+	\end{aligned}
+\right.
+$$
+3.
+$$
+\left\{
+	\begin{aligned}
+		x=3\\y=5
+	\end{aligned}
+\right.
+$$
+4.
+$$
+\left\{
+	\begin{aligned}
+		x=1\\y=2
+	\end{aligned}
+\right.
+$$
+Tehtävä 6 
 
 1.
 $$
@@ -53,19 +189,11 @@ $$
 $$
 \left\{
 	\begin{aligned}
-		x=7\\y=1
+		x=-6\\y=-2
 	\end{aligned}
 \right.
 $$
 3.
-$$
-\left\{
-	\begin{aligned}
-		x=1\\y=-5
-	\end{aligned}
-\right.
-$$
-4.
 $$
 \left\{
 	\begin{aligned}
@@ -73,139 +201,11 @@ $$
 	\end{aligned}
 \right.
 $$
-Tehtävä 3 
-
-1.
-$$
-\left\{
-	\begin{aligned}
-		x=5\\y=-3
-	\end{aligned}
-\right.
-$$
-2.
-$$
-\left\{
-	\begin{aligned}
-		x=-4\\y=3
-	\end{aligned}
-\right.
-$$
-3.
-$$
-\left\{
-	\begin{aligned}
-		x=2\\y=5
-	\end{aligned}
-\right.
-$$
 4.
 $$
 \left\{
 	\begin{aligned}
-		x=-4\\y=-2
-	\end{aligned}
-\right.
-$$
-Tehtävä 4 
-
-1.
-$$
-\left\{
-	\begin{aligned}
-		x=-6\\y=-3
-	\end{aligned}
-\right.
-$$
-2.
-$$
-\left\{
-	\begin{aligned}
-		x=-3\\y=-6
-	\end{aligned}
-\right.
-$$
-3.
-$$
-\left\{
-	\begin{aligned}
-		x=-1\\y=1
-	\end{aligned}
-\right.
-$$
-4.
-$$
-\left\{
-	\begin{aligned}
-		x=2\\y=-1
-	\end{aligned}
-\right.
-$$
-Tehtävä 5 
-
-1.
-$$
-\left\{
-	\begin{aligned}
-		x=2\\y=-5
-	\end{aligned}
-\right.
-$$
-2.
-$$
-\left\{
-	\begin{aligned}
-		x=-2\\y=-1
-	\end{aligned}
-\right.
-$$
-3.
-$$
-\left\{
-	\begin{aligned}
-		x=-5\\y=5
-	\end{aligned}
-\right.
-$$
-4.
-$$
-\left\{
-	\begin{aligned}
-		x=1\\y=-4
-	\end{aligned}
-\right.
-$$
-Tehtävä 6 
-
-1.
-$$
-\left\{
-	\begin{aligned}
-		x=7\\y=-6
-	\end{aligned}
-\right.
-$$
-2.
-$$
-\left\{
-	\begin{aligned}
-		x=5\\y=7
-	\end{aligned}
-\right.
-$$
-3.
-$$
-\left\{
-	\begin{aligned}
-		x=-3\\y=7
-	\end{aligned}
-\right.
-$$
-4.
-$$
-\left\{
-	\begin{aligned}
-		x=-6\\y=3
+		x=-2\\y=4
 	\end{aligned}
 \right.
 $$
@@ -215,7 +215,7 @@ Tehtävä 7
 $$
 \left\{
 	\begin{aligned}
-		x=3\\y=9
+		x=9\\y=-5
 	\end{aligned}
 \right.
 $$
@@ -223,7 +223,7 @@ $$
 $$
 \left\{
 	\begin{aligned}
-		x=6\\y=5
+		x=-4\\y=-9
 	\end{aligned}
 \right.
 $$
@@ -231,7 +231,7 @@ $$
 $$
 \left\{
 	\begin{aligned}
-		x=7\\y=-6
+		x=-5\\y=2
 	\end{aligned}
 \right.
 $$
@@ -239,7 +239,7 @@ $$
 $$
 \left\{
 	\begin{aligned}
-		x=7\\y=6
+		x=-5\\y=-1
 	\end{aligned}
 \right.
 $$
@@ -249,7 +249,7 @@ Tehtävä 8
 $$
 \left\{
 	\begin{aligned}
-		x=-5\\y=-1
+		x=2\\y=3
 	\end{aligned}
 \right.
 $$
@@ -257,7 +257,7 @@ $$
 $$
 \left\{
 	\begin{aligned}
-		x=-4\\y=-2
+		x=4\\y=-3
 	\end{aligned}
 \right.
 $$
@@ -265,7 +265,7 @@ $$
 $$
 \left\{
 	\begin{aligned}
-		x=-4\\y=4
+		x=-1\\y=-2
 	\end{aligned}
 \right.
 $$
@@ -273,7 +273,7 @@ $$
 $$
 \left\{
 	\begin{aligned}
-		x=5\\y=-5
+		x=3\\y=-4
 	\end{aligned}
 \right.
 $$
@@ -283,7 +283,7 @@ Tehtävä 9
 $$
 \left\{
 	\begin{aligned}
-		x=3\\y=-5
+		x=-4\\y=5
 	\end{aligned}
 \right.
 $$
@@ -291,7 +291,7 @@ $$
 $$
 \left\{
 	\begin{aligned}
-		x=2\\y=-3
+		x=-6\\y=-5
 	\end{aligned}
 \right.
 $$
@@ -299,7 +299,7 @@ $$
 $$
 \left\{
 	\begin{aligned}
-		x=-1\\y=7
+		x=4\\y=2
 	\end{aligned}
 \right.
 $$
@@ -307,7 +307,7 @@ $$
 $$
 \left\{
 	\begin{aligned}
-		x=-1\\y=-4
+		x=7\\y=-6
 	\end{aligned}
 \right.
 $$
@@ -317,7 +317,7 @@ Tehtävä 10
 $$
 \left\{
 	\begin{aligned}
-		x=-2\\y=-6
+		x=-7\\y=7
 	\end{aligned}
 \right.
 $$
@@ -325,7 +325,7 @@ $$
 $$
 \left\{
 	\begin{aligned}
-		x=-6\\y=1
+		x=7\\y=-9
 	\end{aligned}
 \right.
 $$
@@ -333,7 +333,7 @@ $$
 $$
 \left\{
 	\begin{aligned}
-		x=4\\y=-8
+		x=-3\\y=3
 	\end{aligned}
 \right.
 $$
@@ -341,7 +341,7 @@ $$
 $$
 \left\{
 	\begin{aligned}
-		x=-3\\y=-5
+		x=-4\\y=9
 	\end{aligned}
 \right.
 $$

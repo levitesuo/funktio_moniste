@@ -1,0 +1,347 @@
+<style type="text/css">
+	ol { list-style-type: upper-alpha; }
+</style>
+
+### Ratkaisut
+id = 2697 
+
+Tehtävä 1 
+
+1.
+$$
+\left\{
+	\begin{aligned}
+		x=1\\y=-4
+	\end{aligned}
+\right.
+$$
+2.
+$$
+\left\{
+	\begin{aligned}
+		x=-4\\y=1
+	\end{aligned}
+\right.
+$$
+3.
+$$
+\left\{
+	\begin{aligned}
+		x=-1\\y=-3
+	\end{aligned}
+\right.
+$$
+4.
+$$
+\left\{
+	\begin{aligned}
+		x=4\\y=2
+	\end{aligned}
+\right.
+$$
+Tehtävä 2 
+
+1.
+$$
+\left\{
+	\begin{aligned}
+		x=7\\y=-7
+	\end{aligned}
+\right.
+$$
+2.
+$$
+\left\{
+	\begin{aligned}
+		x=3\\y=5
+	\end{aligned}
+\right.
+$$
+3.
+$$
+\left\{
+	\begin{aligned}
+		x=2\\y=-4
+	\end{aligned}
+\right.
+$$
+4.
+$$
+\left\{
+	\begin{aligned}
+		x=-7\\y=1
+	\end{aligned}
+\right.
+$$
+Tehtävä 3 
+
+1.
+$$
+\left\{
+	\begin{aligned}
+		x=1\\y=3
+	\end{aligned}
+\right.
+$$
+2.
+$$
+\left\{
+	\begin{aligned}
+		x=-5\\y=1
+	\end{aligned}
+\right.
+$$
+3.
+$$
+\left\{
+	\begin{aligned}
+		x=-1\\y=-3
+	\end{aligned}
+\right.
+$$
+4.
+$$
+\left\{
+	\begin{aligned}
+		x=1\\y=-1
+	\end{aligned}
+\right.
+$$
+Tehtävä 4 
+
+1.
+$$
+\left\{
+	\begin{aligned}
+		x=4\\y=1
+	\end{aligned}
+\right.
+$$
+2.
+$$
+\left\{
+	\begin{aligned}
+		x=4\\y=1
+	\end{aligned}
+\right.
+$$
+3.
+$$
+\left\{
+	\begin{aligned}
+		x=-1\\y=5
+	\end{aligned}
+\right.
+$$
+4.
+$$
+\left\{
+	\begin{aligned}
+		x=-3\\y=-1
+	\end{aligned}
+\right.
+$$
+Tehtävä 5 
+
+1.
+$$
+\left\{
+	\begin{aligned}
+		x=2\\y=-5
+	\end{aligned}
+\right.
+$$
+2.
+$$
+\left\{
+	\begin{aligned}
+		x=-5\\y=-3
+	\end{aligned}
+\right.
+$$
+3.
+$$
+\left\{
+	\begin{aligned}
+		x=4\\y=-1
+	\end{aligned}
+\right.
+$$
+4.
+$$
+\left\{
+	\begin{aligned}
+		x=-1\\y=1
+	\end{aligned}
+\right.
+$$
+Tehtävä 6 
+
+1.
+$$
+\left\{
+	\begin{aligned}
+		x=3\\y=-1
+	\end{aligned}
+\right.
+$$
+2.
+$$
+\left\{
+	\begin{aligned}
+		x=5\\y=-4
+	\end{aligned}
+\right.
+$$
+3.
+$$
+\left\{
+	\begin{aligned}
+		x=-6\\y=-4
+	\end{aligned}
+\right.
+$$
+4.
+$$
+\left\{
+	\begin{aligned}
+		x=-2\\y=-1
+	\end{aligned}
+\right.
+$$
+Tehtävä 7 
+
+1.
+$$
+\left\{
+	\begin{aligned}
+		x=7\\y=-1
+	\end{aligned}
+\right.
+$$
+2.
+$$
+\left\{
+	\begin{aligned}
+		x=-8\\y=3
+	\end{aligned}
+\right.
+$$
+3.
+$$
+\left\{
+	\begin{aligned}
+		x=9\\y=3
+	\end{aligned}
+\right.
+$$
+4.
+$$
+\left\{
+	\begin{aligned}
+		x=-3\\y=8
+	\end{aligned}
+\right.
+$$
+Tehtävä 8 
+
+1.
+$$
+\left\{
+	\begin{aligned}
+		x=4\\y=2
+	\end{aligned}
+\right.
+$$
+2.
+$$
+\left\{
+	\begin{aligned}
+		x=-1\\y=-4
+	\end{aligned}
+\right.
+$$
+3.
+$$
+\left\{
+	\begin{aligned}
+		x=-2\\y=-3
+	\end{aligned}
+\right.
+$$
+4.
+$$
+\left\{
+	\begin{aligned}
+		x=3\\y=4
+	\end{aligned}
+\right.
+$$
+Tehtävä 9 
+
+1.
+$$
+\left\{
+	\begin{aligned}
+		x=-4\\y=-3
+	\end{aligned}
+\right.
+$$
+2.
+$$
+\left\{
+	\begin{aligned}
+		x=-7\\y=6
+	\end{aligned}
+\right.
+$$
+3.
+$$
+\left\{
+	\begin{aligned}
+		x=1\\y=-2
+	\end{aligned}
+\right.
+$$
+4.
+$$
+\left\{
+	\begin{aligned}
+		x=-3\\y=5
+	\end{aligned}
+\right.
+$$
+Tehtävä 10 
+
+1.
+$$
+\left\{
+	\begin{aligned}
+		x=2\\y=8
+	\end{aligned}
+\right.
+$$
+2.
+$$
+\left\{
+	\begin{aligned}
+		x=-4\\y=2
+	\end{aligned}
+\right.
+$$
+3.
+$$
+\left\{
+	\begin{aligned}
+		x=-1\\y=-7
+	\end{aligned}
+\right.
+$$
+4.
+$$
+\left\{
+	\begin{aligned}
+		x=-2\\y=9
+	\end{aligned}
+\right.
+$$

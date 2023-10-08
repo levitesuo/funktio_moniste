@@ -3,16 +3,27 @@ type(sys.path)
 sys.path.append(r"C:\Users\Leevi Suotula\AppData\Local\Own python\funktio_moniste\objects")
 sys.path.append(r"c:\users\leevi suotula\anaconda3\lib\site-packages")
 from random import randint
-import mdpdf
+
 
 from objects import equation_pair_randomiser
 ids = []
-for i in range(2):
+for i in range(30):
     id = randint(1000, 9999)
     while id in ids:
         id = randint(1000, 9999)
     ids.append(id)
-    with open(f"0{i+1} Funktiopari.md", "w") as f:
+    mdfolder = r"C:\Users\Leevi Suotula\AppData\Local\Own python\funktio_moniste\final pdfs\raw\\"
+    efolder = r"C:\Users\Leevi Suotula\AppData\Local\Own python\funktio_moniste\final pdfs\Exercises\\"
+    sfolder = r"C:\Users\Leevi Suotula\AppData\Local\Own python\funktio_moniste\final pdfs\Solutions\\"
+    hfolder = r"C:\Users\Leevi Suotula\AppData\Local\Own python\funktio_moniste\final pdfs\html_files\\"
+    exercise_md_filename = mdfolder + f"{id} Funktiopari.md"
+    solution_md_filename = mdfolder + f"{id} Funktiopari ratkaisut.md"
+    exercise_pdf_filename = efolder + f"{id} Funktiopari.pdf"
+    solution_pdf_filename = sfolder + f"{id} Funktiopari ratkaisut.pdf"
+    exercise_html_filename = hfolder + f"{id} Funktiopari.html"
+    solution_html_filename =  hfolder + f"{id} Funktiopari ratkaisut.html"
+    
+    with open(exercise_md_filename, "w") as f:
         solutions = []
         f.write('<style type="text/css">\n')
         f.write('\tol { list-style-type: upper-alpha; }\n')
@@ -60,7 +71,7 @@ for i in range(2):
         write_exercise_function_pair_1(9, f, 2)
         write_exercise_function_pair_1(10, f, 2, 9)
     
-    with open(f"0{i+1} Funktiopari ratkaisut.md", "w") as f:
+    with open(solution_md_filename, "w") as f:
         f.write('<style type="text/css">\n')
         f.write('\tol { list-style-type: upper-alpha; }\n')
         f.write('</style>')
@@ -80,3 +91,11 @@ for i in range(2):
                 f.write("\t"+r"\end{aligned}"+"\n")
                 f.write(r"\right."+"\n")
                 f.write("$$\n")
+    
+
+        def mrkdw_to_pdf(start, middle, goal):
+            with open(start, 'r') as f:
+                tempMD = f.read()
+            tempHtml = markdown2.markdown(tempMD)
+            with open(middle, 'w') as f:
+                f.write(tempHtml)
